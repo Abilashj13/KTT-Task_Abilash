@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46278E722C2EB41300E29A97 /* GoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278E712C2EB41300E29A97 /* GoogleLogin.swift */; };
+		46278E762C304D3A00E29A97 /* CommonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278E752C304D3A00E29A97 /* CommonFile.swift */; };
+		46278E782C304E2600E29A97 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278E772C304E2600E29A97 /* LoginView.swift */; };
+		46278E802C32A2DE00E29A97 /* AppleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278E7F2C32A2DE00E29A97 /* AppleLogin.swift */; };
+		46278E832C32B3F700E29A97 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278E822C32B3F700E29A97 /* LocationManager.swift */; };
+		46278E852C32B67F00E29A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278E842C32B67F00E29A97 /* AppDelegate.swift */; };
+		46278EA92C33F35F00E29A97 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278EA82C33F35F00E29A97 /* LocationListView.swift */; };
+		46278EAB2C33F36800E29A97 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278EAA2C33F36800E29A97 /* UserLocation.swift */; };
+		46278EAD2C34956700E29A97 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278EAC2C34956700E29A97 /* LocationViewModel.swift */; };
+		46278EAF2C3495DF00E29A97 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46278EAE2C3495DF00E29A97 /* MapView.swift */; };
+		46278EB12C349B0700E29A97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46278EB02C349B0700E29A97 /* GoogleService-Info.plist */; };
+		464B29CA2C2D9BC90059D89C /* AbilashTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B29C92C2D9BC90059D89C /* AbilashTaskApp.swift */; };
+		464B29CC2C2D9BC90059D89C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B29CB2C2D9BC90059D89C /* ContentView.swift */; };
+		464B29CE2C2D9BCB0059D89C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464B29CD2C2D9BCB0059D89C /* Assets.xcassets */; };
+		464B29D12C2D9BCB0059D89C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464B29D02C2D9BCB0059D89C /* Preview Assets.xcassets */; };
+		EEB820E427375666EB91B769 /* Pods_AbilashTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7301A2F63CB560616D22CDCE /* Pods_AbilashTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		107A817EC4A98DA129B4FB7C /* Pods-AbilashTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbilashTask.debug.xcconfig"; path = "Target Support Files/Pods-AbilashTask/Pods-AbilashTask.debug.xcconfig"; sourceTree = "<group>"; };
+		46278E712C2EB41300E29A97 /* GoogleLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLogin.swift; sourceTree = "<group>"; };
+		46278E752C304D3A00E29A97 /* CommonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFile.swift; sourceTree = "<group>"; };
+		46278E772C304E2600E29A97 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		46278E792C305A5900E29A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		46278E7E2C32A26700E29A97 /* AbilashTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AbilashTask.entitlements; sourceTree = "<group>"; };
+		46278E7F2C32A2DE00E29A97 /* AppleLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogin.swift; sourceTree = "<group>"; };
+		46278E822C32B3F700E29A97 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		46278E842C32B67F00E29A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46278EA82C33F35F00E29A97 /* LocationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		46278EAA2C33F36800E29A97 /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		46278EAC2C34956700E29A97 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		46278EAE2C3495DF00E29A97 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		46278EB02C349B0700E29A97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		464B29C62C2D9BC90059D89C /* AbilashTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbilashTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464B29C92C2D9BC90059D89C /* AbilashTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilashTaskApp.swift; sourceTree = "<group>"; };
+		464B29CB2C2D9BC90059D89C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		464B29CD2C2D9BCB0059D89C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		464B29D02C2D9BCB0059D89C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7301A2F63CB560616D22CDCE /* Pods_AbilashTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbilashTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41C019763407457E88C0FE6 /* Pods-AbilashTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbilashTask.release.xcconfig"; path = "Target Support Files/Pods-AbilashTask/Pods-AbilashTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464B29C32C2D9BC90059D89C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB820E427375666EB91B769 /* Pods_AbilashTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174518CF1D57A619D76AF3E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				107A817EC4A98DA129B4FB7C /* Pods-AbilashTask.debug.xcconfig */,
+				E41C019763407457E88C0FE6 /* Pods-AbilashTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		46278E6D2C2EA5C800E29A97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46278EAA2C33F36800E29A97 /* UserLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46278E702C2EB3F300E29A97 /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				46278EAC2C34956700E29A97 /* LocationViewModel.swift */,
+				46278E712C2EB41300E29A97 /* GoogleLogin.swift */,
+				46278E752C304D3A00E29A97 /* CommonFile.swift */,
+				46278E7F2C32A2DE00E29A97 /* AppleLogin.swift */,
+				46278E822C32B3F700E29A97 /* LocationManager.swift */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		46278E812C32AFCA00E29A97 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				46278E842C32B67F00E29A97 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		464B29BD2C2D9BC90059D89C = {
+			isa = PBXGroup;
+			children = (
+				46278EB02C349B0700E29A97 /* GoogleService-Info.plist */,
+				464B29C82C2D9BC90059D89C /* AbilashTask */,
+				464B29C72C2D9BC90059D89C /* Products */,
+				174518CF1D57A619D76AF3E3 /* Pods */,
+				7112C5946D0A8EE44BC2D40A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		464B29C72C2D9BC90059D89C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464B29C62C2D9BC90059D89C /* AbilashTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464B29C82C2D9BC90059D89C /* AbilashTask */ = {
+			isa = PBXGroup;
+			children = (
+				46278E812C32AFCA00E29A97 /* Delegate */,
+				46278E7E2C32A26700E29A97 /* AbilashTask.entitlements */,
+				46278E792C305A5900E29A97 /* Info.plist */,
+				46278E702C2EB3F300E29A97 /* LoginViewModel */,
+				46278E6D2C2EA5C800E29A97 /* Model */,
+				464B29C92C2D9BC90059D89C /* AbilashTaskApp.swift */,
+				464B29CB2C2D9BC90059D89C /* ContentView.swift */,
+				46278EA82C33F35F00E29A97 /* LocationListView.swift */,
+				46278EAE2C3495DF00E29A97 /* MapView.swift */,
+				46278E772C304E2600E29A97 /* LoginView.swift */,
+				464B29CD2C2D9BCB0059D89C /* Assets.xcassets */,
+				464B29CF2C2D9BCB0059D89C /* Preview Content */,
+			);
+			path = AbilashTask;
+			sourceTree = "<group>";
+		};
+		464B29CF2C2D9BCB0059D89C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				464B29D02C2D9BCB0059D89C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7112C5946D0A8EE44BC2D40A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7301A2F63CB560616D22CDCE /* Pods_AbilashTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464B29C52C2D9BC90059D89C /* AbilashTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464B29D42C2D9BCB0059D89C /* Build configuration list for PBXNativeTarget "AbilashTask" */;
+			buildPhases = (
+				0FDC657655E5EFC8DC660A06 /* [CP] Check Pods Manifest.lock */,
+				464B29C22C2D9BC90059D89C /* Sources */,
+				464B29C32C2D9BC90059D89C /* Frameworks */,
+				464B29C42C2D9BC90059D89C /* Resources */,
+				A96D0E940AC193D5665D84E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbilashTask;
+			productName = AbilashTask;
+			productReference = 464B29C62C2D9BC90059D89C /* AbilashTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464B29BE2C2D9BC90059D89C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					464B29C52C2D9BC90059D89C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 464B29C12C2D9BC90059D89C /* Build configuration list for PBXProject "AbilashTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464B29BD2C2D9BC90059D89C;
+			productRefGroup = 464B29C72C2D9BC90059D89C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464B29C52C2D9BC90059D89C /* AbilashTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464B29C42C2D9BC90059D89C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464B29D12C2D9BCB0059D89C /* Preview Assets.xcassets in Resources */,
+				464B29CE2C2D9BCB0059D89C /* Assets.xcassets in Resources */,
+				46278EB12C349B0700E29A97 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FDC657655E5EFC8DC660A06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbilashTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96D0E940AC193D5665D84E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbilashTask/Pods-AbilashTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbilashTask/Pods-AbilashTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbilashTask/Pods-AbilashTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464B29C22C2D9BC90059D89C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46278E782C304E2600E29A97 /* LoginView.swift in Sources */,
+				464B29CC2C2D9BC90059D89C /* ContentView.swift in Sources */,
+				46278E762C304D3A00E29A97 /* CommonFile.swift in Sources */,
+				46278EA92C33F35F00E29A97 /* LocationListView.swift in Sources */,
+				46278E722C2EB41300E29A97 /* GoogleLogin.swift in Sources */,
+				46278EAB2C33F36800E29A97 /* UserLocation.swift in Sources */,
+				46278EAF2C3495DF00E29A97 /* MapView.swift in Sources */,
+				46278EAD2C34956700E29A97 /* LocationViewModel.swift in Sources */,
+				46278E802C32A2DE00E29A97 /* AppleLogin.swift in Sources */,
+				464B29CA2C2D9BC90059D89C /* AbilashTaskApp.swift in Sources */,
+				46278E852C32B67F00E29A97 /* AppDelegate.swift in Sources */,
+				46278E832C32B3F700E29A97 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		464B29D22C2D9BCB0059D89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464B29D32C2D9BCB0059D89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		464B29D52C2D9BCB0059D89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107A817EC4A98DA129B4FB7C /* Pods-AbilashTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AbilashTask/AbilashTask.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AbilashTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AbilashTask/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "to get user location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "to get user location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "to get user location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olybible.ervbible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		464B29D62C2D9BCB0059D89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41C019763407457E88C0FE6 /* Pods-AbilashTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AbilashTask/AbilashTask.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AbilashTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AbilashTask/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "to get user location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "to get user location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "to get user location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olybible.ervbible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464B29C12C2D9BC90059D89C /* Build configuration list for PBXProject "AbilashTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464B29D22C2D9BCB0059D89C /* Debug */,
+				464B29D32C2D9BCB0059D89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464B29D42C2D9BCB0059D89C /* Build configuration list for PBXNativeTarget "AbilashTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464B29D52C2D9BCB0059D89C /* Debug */,
+				464B29D62C2D9BCB0059D89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 464B29BE2C2D9BC90059D89C /* Project object */;
+}
